@@ -1,3 +1,10 @@
+/* WHAT TO DO HERE:
+  1) change colors to better match this https://heidimichel.46graus.com/about-contact/ but add.. something interesting
+  2) align logo left on sidebar 
+  3) limit text container (on welcomeWrapper), keep centerd on mobile and align left on desktop
+  4) add cool effect on hover for project images (project-tile > img)
+*/
+
 html {
   scroll-behavior: smooth;
 }
