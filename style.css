@@ -1,8 +1,7 @@
 /* WHAT TO DO HERE:
-  1) change colors to better match this https://heidimichel.46graus.com/about-contact/ but add.. something interesting
-  2) align logo left on sidebar 
   3) limit text container (on welcomeWrapper), keep centerd on mobile and align left on desktop
   4) add cool effect on hover for project images (project-tile > img)
+  5) change CSS to SASS whenever possible
 */
 
 html {
@@ -12,12 +11,18 @@ body {
   font-family: sans-serif;
 }
 #navbar {
-  background-color: pink;
+  background-color: #737373 /*old color was pink*/;
   width: 100%;
   height: 70px;
   position: fixed;
   top: 0;
   z-index: 99;
+  display: flex;
+  justify-content: space-between;
+}
+nav .navLogo img {
+  height: 60px;
+  padding: 0.3em;
 }
 nav ul {
   display: flex;
@@ -29,42 +34,43 @@ nav ul li {
   width: auto;
   list-style-type: none;
   margin-left: 20px;
+  margin-top: 5px;
 }
 nav ul li a {
-  color: #332628;
+  color: #A7A7A7 /* old was #332628*/;
   font-weight: bold;
   text-decoration: none;
   font-size: 1.5em;
 }
 nav ul li a:hover {
-  color: #cc5c70;
+  color: #ffa5a5 /*old color was #cc5c70*/;
 }
 main {
-  background-color: #cccccc;
+  /*background-color: #cccccc; COMMENTING BECAUSE IT'S NOT BEING USED/IT DOESN'T SHOW*/
   padding: 0 !important;
   margin: 0 !important;
   width: 100%;
 }
 #welcome-section {
-  background-color: #332628;
+  background-color: #505050 /*old color was #332628 */;
   height: 100vh;
   /*width: 100vw;*/
   text-align: center;
   margin-bottom: 0;
 }
 #welcome-section h1 {
-  color: #ff8da1;
+  color: #ffa5a5 /* old was #ff8da1 */;
   font-size: 3rem;
 }
 #welcome-section p {
-  color: #ff748c;
+  color: #ffffff /* old was #ff748c */;
   font-size: 1.5rem;
 }
 .welcomeWrapper {
   margin-top: 25%;
 }
 #projects {
-  background-color: #cc5c70;
+  background-color: #A7A7A7 /* old color #cc5c70 */;
   min-height: 100vh;
   height: auto;
   /*width: 100vw;*/
@@ -116,7 +122,7 @@ main {
   color: pink;
 }
 #profile {
-  background-color: pink;
+  background-color: #505050 /*old color was pink */;
   /*width: 100vw;*/
 }
 .profileWrapper {
@@ -127,12 +133,14 @@ main {
 }
 .profileWrapper h2 {
   font-size: 3rem;
+  color: #ffffff;
 }
 .profileWrapper p {
   font-size: 1.5rem;
+  color: #A7A7A7;
 }
 .profileWrapper a {
-  color: #cc5c70;
+  color: #ffa5a5 /* old was #cc5c70 */;
   text-decoration: none;
 }
 .profileWrapper a:hover {
