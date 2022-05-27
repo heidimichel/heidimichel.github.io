@@ -3,12 +3,13 @@
   4) add cool effect on hover for project images (project-tile > img)
   5) change CSS to SASS whenever possible
 */
-
 html {
   scroll-behavior: smooth;
 }
 body {
   font-family: sans-serif;
+  background-color: #505050;
+  margin: 0;
 }
 #navbar {
   background-color: #737373;
@@ -46,10 +47,8 @@ nav ul li a:hover {
   color: #ffa5a5;
 }
 main {
-  background-color: #505050; /*just in case*/
   padding: 0 !important;
   margin: 0 !important;
-  width: 100vw;
 }
 #welcome-section {
   background-color: #505050;
