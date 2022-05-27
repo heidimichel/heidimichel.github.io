@@ -57,6 +57,7 @@ main {
   height: 100vh;
   text-align: center;
   margin: 25% auto 0 auto;
+  /*display: flex;*/
 }
 .welcomeWrapper h1 {
   color: #ffa5a5;
@@ -66,6 +67,10 @@ main {
   color: #A7A7A7;
   font-size: 1.5rem;
 }
+
+welcometext
+welcomeimg
+
 #projects {
   background-color: #A7A7A7;
   min-height: 100vh;
