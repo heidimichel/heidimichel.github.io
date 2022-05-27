@@ -1,0 +1,6 @@
+bg color	#505050		dark gray
+navbar		#737373		medium gray
+complim ↑	#616161		medium-light gray
+complim ↑	#A7A7A7		light gray
+text color	#ffffff		white
+accent color	#ffa5a5		pink
