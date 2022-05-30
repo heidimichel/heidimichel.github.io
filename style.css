@@ -11,6 +11,7 @@ body {
   background-color: #505050;
   margin: 0;
 }
+/*------------------------navbar items------------------------*/
 #navbar {
   background-color: #737373;
   width: 100%;
@@ -46,18 +47,23 @@ nav ul li a {
 nav ul li a:hover {
   color: #ffa5a5;
 }
+/*------------------------main------------------------*/
 main {
   padding: 0 !important;
   margin: 0 !important;
 }
+/*------------------------welcome section------------------------*/
 #welcome-section {
   background-color: #505050;
 }
 .welcomeWrapper {
-  height: 100vh;
+  /*height: 100vh;*/
   text-align: center;
-  margin: 25% auto 0 auto;
-  /*display: flex;*/
+  margin: 10% auto 0 auto;
+}
+.welcometext {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .welcomeWrapper h1 {
   color: #ffa5a5;
@@ -65,12 +71,12 @@ main {
 }
 .welcomeWrapper p {
   color: #A7A7A7;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
-
-welcometext
-welcomeimg
-
+.welcomeimg img {
+  max-width: 100%;
+}
+/*------------------------projects section------------------------*/
 #projects {
   background-color: #A7A7A7;
   min-height: 100vh;
@@ -122,6 +128,7 @@ welcomeimg
 .project-title a:hover, .project-title a:focus {
   color: pink;
 }
+/*------------------------profile section------------------------*/
 #profile {
   background-color: #505050;
 }
@@ -146,8 +153,22 @@ welcomeimg
 .profileWrapper a:hover {
   color: #ff748c;
 }
-@media all and (min-width:600px) {
-  .profileWrapper, .welcomeWrapper {
+/*------------------------responsive desktop adjustments------------------------*/
+@media all and (min-width:800px) {
+  .profileWrapper {
     width: 70%;
   }
+  .welcomeWrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .welcometext {
+    width: 25%;
+    margin-top: 5%;
+  }
+  .welcomeimg {
+    width: 65%;
+    opacity: 85%;
+  }
 }
+
