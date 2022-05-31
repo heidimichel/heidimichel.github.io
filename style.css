@@ -55,9 +55,9 @@ main {
 /*------------------------welcome section------------------------*/
 #welcome-section {
   background-color: #505050;
+  min-height: 100vh;
 }
 .welcomeWrapper {
-  /*height: 100vh;*/
   text-align: center;
   margin: 10% auto 0 auto;
 }
@@ -79,15 +79,13 @@ main {
 /*------------------------projects section------------------------*/
 #projects {
   background-color: #A7A7A7;
-  min-height: 100vh;
-  height: auto;
   text-align: center;
-  margin-bottom: 0;
+  padding-bottom: 10px;
+  min-height: 100vh;
 }
 .projectsWrapper {
   width: 80%;
-  margin: 5% auto;
-  height: auto;
+  margin: auto;
 }
 #projects h2 {
   color: #000000;
@@ -103,6 +101,7 @@ main {
   justify-content: center;
   row-gap: 0.5em;
   column-gap: 0.5em;
+  padding-bottom: 3em;
 }
 .project-tile {
   width: 250px;
@@ -133,10 +132,9 @@ main {
   background-color: #505050;
 }
 .profileWrapper {
-  margin-top: 15%;
   text-align: center;
   width: 90%;
-  margin: auto;
+  margin: 10% auto 5% auto;
 }
 .profileWrapper h2 {
   font-size: 3rem;
