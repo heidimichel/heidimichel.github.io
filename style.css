@@ -59,7 +59,7 @@ main {
 }
 .welcomeWrapper {
   text-align: center;
-  margin: 10% auto 0 auto;
+  margin: 35% auto 0 auto;
 }
 .welcometext {
   margin-top: 5%;
@@ -83,6 +83,12 @@ main {
   padding-bottom: 10px;
   min-height: 100vh;
 }
+#projects p a:visited{
+  color: #505050;
+}
+#projects p a:hover{
+  color: #ffa5a5;
+}
 .projectsWrapper {
   width: 80%;
   margin: auto;
@@ -94,6 +100,10 @@ main {
 #projects .title, .project-title {
   color: white;
   font-size: 1rem;
+}
+.project-tile:hover img {
+  filter: brightness(0.2);
+  transition: filter 0.3s;
 }
 .container {
   display: flex;
@@ -153,6 +163,10 @@ main {
 }
 /*------------------------responsive desktop adjustments------------------------*/
 @media all and (min-width:800px) {
+  .welcomeWrapper {
+    text-align: center;
+    margin: 10% auto 0 auto;
+  }
   .profileWrapper {
     width: 70%;
   }
